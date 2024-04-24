@@ -41,7 +41,7 @@ export function SearchInput() {
       <Input
         id={"search"}
         placeholder={"Lets Search 😎, till you are at C&D"}
-        className={"w-full max-w-[516px] pl-9"}
+  className={"w-full max-w-[516px] pl-9 border-2 border-black rounded"}
         onChange={handleSearch}
       />
     </div>
