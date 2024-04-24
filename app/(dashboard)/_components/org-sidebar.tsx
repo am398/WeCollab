@@ -59,7 +59,7 @@ export function OrgSidebar() {
       <div className={"w-full space-y-1"}>
         <Button
   asChild
-  variant={favorites ? "ghost" : "secondary"}
+  variant={favorites ? "outline" : "secondary"}
   size={"lg"}
   className={"w-full justify-start px-2 font-normal hover:bg-gray-200"}
 >
@@ -70,7 +70,7 @@ export function OrgSidebar() {
 </Button>
 <Button
   asChild
-  variant={favorites ? "secondary" : "ghost"}
+  variant={favorites ? "outline" : "secondary"}
   size={"lg"}
   className={"w-full justify-start px-2 font-normal hover:bg-gray-200"}
 >
@@ -86,7 +86,7 @@ export function OrgSidebar() {
 </Button>
 <Button
   asChild
-  variant={favorites ? "ghost" : "secondary"}
+  variant={favorites ? "outline" : "secondary"}
   size={"lg"}
   className={"w-full justify-start px-2 font-normal hover:bg-gray-200"}
 >
