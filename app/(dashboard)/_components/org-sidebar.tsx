@@ -84,6 +84,17 @@ export function OrgSidebar() {
             Favorites Boards
           </Link>
         </Button>
+        <Button
+          asChild
+          variant={favorites ? "ghost" : "secondary"}
+          size={"lg"}
+          className={"w-full justify-start px-2 font-normal"}
+        >
+          <Link href={{ pathname: "http://localhost:3001"}}>
+            <LayoutDashboard className={"mr-2 h-4 w-4"} />
+            Conference Room
+          </Link>
+        </Button>
       </div>
     </div>
   );
