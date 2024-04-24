@@ -7,10 +7,10 @@ export function InviteButton() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant={"outline"}>
-          <Plus className={"mr-2 h-4 w-4"} />
-          Invite Members
-        </Button>
+<Button variant={"outline"} className={"border-2 border-black rounded"}>
+  <Plus className={"mr-2 h-4 w-4"} />
+  Invite Members
+</Button>
       </DialogTrigger>
       <DialogContent hideClose hideModel className={"max-w-[880px]"}>
         <OrganizationProfile />

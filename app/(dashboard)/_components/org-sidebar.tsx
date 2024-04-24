@@ -23,7 +23,7 @@ export function OrgSidebar() {
       <Link href={"/"}>
         <div className={"flex items-center gap-x-2 "}>
           <Image
-            src={"/snu.svg"}
+            src={"/wcrop.png"}
             width={60}
             height={60}
             sizes={"60px"}
@@ -58,43 +58,43 @@ export function OrgSidebar() {
       />
       <div className={"w-full space-y-1"}>
         <Button
-          asChild
-          variant={favorites ? "ghost" : "secondary"}
-          size={"lg"}
-          className={"w-full justify-start px-2 font-normal"}
-        >
-          <Link href={{ pathname: "/", query: { search } }}>
-            <LayoutDashboard className={"mr-2 h-4 w-4"} />
-            Team Boards
-          </Link>
-        </Button>
-        <Button
-          asChild
-          variant={favorites ? "secondary" : "ghost"}
-          size={"lg"}
-          className={"w-full justify-start px-2 font-normal"}
-        >
-          <Link
-            href={{
-              pathname: "/",
-              query: { favorites: true, search },
-            }}
-          >
-            <Star className={"mr-2 h-4 w-4"} />
-            Favorites Boards
-          </Link>
-        </Button>
-        <Button
-          asChild
-          variant={favorites ? "ghost" : "secondary"}
-          size={"lg"}
-          className={"w-full justify-start px-2 font-normal"}
-        >
-          <Link href={{ pathname: "http://localhost:3001"}}>
-            <LayoutDashboard className={"mr-2 h-4 w-4"} />
-            Conference Room
-          </Link>
-        </Button>
+  asChild
+  variant={favorites ? "ghost" : "secondary"}
+  size={"lg"}
+  className={"w-full justify-start px-2 font-normal hover:bg-gray-200"}
+>
+  <Link href={{ pathname: "/", query: { search } }}>
+    <LayoutDashboard className={"mr-2 h-4 w-4"} />
+    Team Boards
+  </Link>
+</Button>
+<Button
+  asChild
+  variant={favorites ? "secondary" : "ghost"}
+  size={"lg"}
+  className={"w-full justify-start px-2 font-normal hover:bg-gray-200"}
+>
+  <Link
+    href={{
+      pathname: "/",
+      query: { favorites: true, search },
+    }}
+  >
+    <Star className={"mr-2 h-4 w-4"} />
+    Favorite Boards
+  </Link>
+</Button>
+<Button
+  asChild
+  variant={favorites ? "ghost" : "secondary"}
+  size={"lg"}
+  className={"w-full justify-start px-2 font-normal hover:bg-gray-200"}
+>
+  <Link href={{ pathname: "http://localhost:3001"}}>
+    <LayoutDashboard className={"mr-2 h-4 w-4"} />
+    Conference Room
+  </Link>
+</Button>
       </div>
     </div>
   );

@@ -52,7 +52,7 @@ export function Info({ boardId }: InfoProps) {
         <Button asChild variant={"board"}>
           <Link href={"/"}>
             <Image
-              src={"/snu.svg"}
+              src={"/wcrop.png"}
               alt={"snu logo"}
               width={30}
               height={30}

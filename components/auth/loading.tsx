@@ -23,7 +23,7 @@ export default function Loading({ canvas }: { canvas?: boolean }) {
         </>
       ) : (
         <Image
-          src="/snu.svg"
+          src="/wcrop.png"
           alt="snu logo"
           width={120}
           height={120}
