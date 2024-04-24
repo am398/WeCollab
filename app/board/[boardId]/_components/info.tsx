@@ -52,8 +52,8 @@ export function Info({ boardId }: InfoProps) {
         <Button asChild variant={"board"}>
           <Link href={"/"}>
             <Image
-              src={"/miro.svg"}
-              alt={"miro logo"}
+              src={"/snu.svg"}
+              alt={"snu logo"}
               width={30}
               height={30}
               className={"rounded-md"}
