@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WeCollab Project README
 
-## Getting Started
+## Project Information
+This project, **WeCollab**, is developed by students at Shiv Nadar University for the CSD 304: Software Engineering course. The team includes:
+- Anuj Maurya
+- Naman Sharma
+- Arin Agnihotri
+- Manasbir Bhatia
 
-First, run the development server:
+The project is supervised by Assistant Professor Suchi Kumari from the Computer Science and Engineering department.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
+WeCollab is designed to address challenges in collaborative work environments by providing a comprehensive platform that integrates multiple collaboration tools into one seamless experience. The application incorporates essential features such as real-time communication, video conferencing, project management, whiteboarding, and document collaboration. The backend uses Convex for real-time synchronization, and the frontend employs Tailwind CSS for a modern, responsive design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
+- **Frontend Framework**: Next.js
+- **UI Library**: Tailwind CSS
+- **Real-time Collaboration**: Convex
+- **User Authentication**: Clerk
+- **Development Tools**: React, ShadCN UI
+- **Whiteboard integration**: Liveblocks
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Setting Up the Development Environment
+To set up the development environment for WeCollab, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Ensure you have the necessary system requirements, including Node.js and npm.
+2. Clone the repository to your local machine.
+3. Navigate to the project directory and install the required dependencies:
+   ```bash
+   npm i
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and go to `http://localhost:3000` to view the project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
+- The frontend components and logic are located in the `app/` directory.
+- Core Next.js configuration files are in the root of the project.
+- User authentication is managed through Clerk, and Convex provides real-time backend functionality.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
+Contributions to the WeCollab project are welcome. If you find any issues or have suggestions, feel free to submit a pull request or open an issue in the repository.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
