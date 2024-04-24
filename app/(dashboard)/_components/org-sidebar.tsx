@@ -31,7 +31,7 @@ export function OrgSidebar() {
             className={"rounded-md"}
           />
           <span className={cn("text-2xl font-semibold", font.className)}>
-            Miro
+            WeCollab
           </span>
         </div>
       </Link>

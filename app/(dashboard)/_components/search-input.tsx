@@ -40,7 +40,7 @@ export function SearchInput() {
       </label>
       <Input
         id={"search"}
-        placeholder={"Find your awesome board"}
+        placeholder={"Lets Search 😎, till you are at C&D"}
         className={"w-full max-w-[516px] pl-9"}
         onChange={handleSearch}
       />
