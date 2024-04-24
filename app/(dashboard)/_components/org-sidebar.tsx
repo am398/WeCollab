@@ -23,11 +23,11 @@ export function OrgSidebar() {
       <Link href={"/"}>
         <div className={"flex items-center gap-x-2 "}>
           <Image
-            src={"/miro.svg"}
+            src={"/snu.svg"}
             width={60}
             height={60}
             sizes={"60px"}
-            alt={"miro logo"}
+            alt={"snu logo"}
             className={"rounded-md"}
           />
           <span className={cn("text-2xl font-semibold", font.className)}>

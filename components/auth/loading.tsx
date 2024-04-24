@@ -23,8 +23,8 @@ export default function Loading({ canvas }: { canvas?: boolean }) {
         </>
       ) : (
         <Image
-          src="/miro.svg"
-          alt="miro logo"
+          src="/snu.svg"
+          alt="snu logo"
           width={120}
           height={120}
           className={"animate-pulse rounded-md duration-700 ease-in-out"}
